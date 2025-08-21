@@ -1,0 +1,161 @@
+*{
+    box-sizing: border-box; 
+    margin: 0; 
+    padding : 0; 
+    list-style: none;
+}
+header{ 
+    background-color: lightgray;
+    padding: 10px 10px 10px 10px;
+    position: sticky;
+    top: 0;
+   
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: lightgray;
+    padding: 10px 10px 10px 10px;
+}
+
+header nav > a img {
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    background-color: white;
+
+}
+
+.back-to-top {
+    display: inline-block;
+    padding: 10px 10px 10px 10px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 999;
+    color: lightgrays;
+}
+/*header nav span {
+   display: inline-block; 
+    padding: 10px 10px 10px 10px;
+    color: black;
+}*/
+
+
+      
+
+header nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+     
+}
+
+header nav li { 
+    display: inline-block
+   
+
+}
+.navlink [href="#"] {
+    color: aquamarine;
+}
+   
+
+
+.navilink:link,
+.navilink:visited {
+    color: white;
+}
+.navilink:hover {color: rgb(9, 159, 229);}
+
+header nav ul li a{
+    text-align: center;
+    color: black;
+    display: inline-block;
+
+}
+
+#current-page {
+    color: aquamarine;
+}
+
+footer {
+    
+    background-color: lightgray;
+    padding: 8px 16px;
+    text-align: center;
+    height: 100px;
+}
+.footer-links {
+   display: flex;
+    justify-content: center;
+    margin: 0 10px ;
+    padding: 10px 20px;
+}
+/*.content {
+    text-align: center;
+    padding: 20px 20px 20px 20px;
+    padding-right: 300px;
+    margin: 0px auto;
+    background-color: white;
+    max-width: 800px;
+    min-height: 700px;
+}*/
+h1 {
+    font-size: 32px;
+    margin-bottom: 16px;
+    float: auto;
+}
+h2 {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 16px;
+    margin-left: 30pxs;
+    color: white;
+}
+a {
+    text-decoration: none;
+    color: green;
+    margin-left: 20px;
+}
+.article-picture img {
+   float:left;
+    width: 200px;
+    height: 200px;
+    background-color: lightgray;
+    margin-bottom: 20px;
+    margin: 10px 10px 10px 10px;
+}
+main {
+   
+    border: 3px solid black;
+   text-align: center;
+    margin: 50px 50px 50px 50px;
+    padding: 20px 20px 20px 20px;
+    background-color: white;
+    min-height: 400px;
+}
+article {
+text-align: left;
+    border: 1px solid black;
+   
+    height: 500px;
+    margin: 0;
+    
+}
+
+.post-paragraph {
+    margin: 10px 0;
+    line-height: 3;
+}
+
+.textbox {
+    margin: 0;
+    padding-left: 10px;
+    
+}
