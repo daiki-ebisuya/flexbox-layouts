@@ -1,0 +1,108 @@
+/* ベーススタイル */
+body, html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #f5f7fa; /* 全体背景を淡グレーに */
+  font-family: 'Helvetica Neue', sans-serif;
+  color: #333;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+
+}
+
+/* 共通Flex Containerスタイル */
+.flex-container {
+  display: flex;
+  background-color: #ffffff; /* カード風に白背景 */
+  padding: 15px;
+  margin: 15px 0;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+
+}
+
+/* Flex Item共通スタイル */
+.flex-item {
+  background-color: #4f6d7a; /* おしゃれなグレー系 */
+  margin: 8px;
+  height: 50px;
+}
+
+/* ヘッダー */
+.header {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  width: 60px;
+  height: 60px;
+  background-color: #4f6d7a;
+}
+
+.nav {
+  display: flex;
+}
+
+.nav-item {
+  width: 60px;
+  height: 40px;
+}
+
+/* メインレイアウト */
+.main {
+  display: flex;
+}
+
+/* サイドバー */
+.sidebar {
+  flex-direction: column;
+  width: 120px;
+  background-color: #f0f2f5;
+  border-radius: 8px;
+}
+
+.sidebar-item {
+  height: 30px;
+  width: 100%;
+  background-color: #4f6d7a;
+}
+
+/* コンテンツ */
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  flex: 1;
+  padding-left: 20px;
+}
+
+.content-item {
+  width: 30%;
+  height: 200px;
+  background-color: #4f6d7a;
+}
+
+/* フッター */
+.footer {
+  justify-content: center;
+  background-color: #f0f2f5;
+  border-radius: 8p
+
+}
+.footer-item {
+  width: 100px;
+  height: 20px;
+  text-align: center;
+  background-color: #4f6d7a;
+}
+
+.nav-item {
+  width: 100px;
+  height: 20px;
+  text-align: center;
+}
