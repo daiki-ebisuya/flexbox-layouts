@@ -9,19 +9,21 @@
 
 
 
-*{
-    box-sizing: border-box; 
-    margin: 0; 
-    padding : 0; 
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
     list-style: none;
 }
-header{ 
+
+header {
     background-color: lightgray;
     padding: 10px 10px 10px 10px;
-     position: -webkit-sticky; /* Safari */
+    position: -webkit-sticky;
+    /* Safari */
     position: sticky;
     top: 0;
-   
+
 }
 
 nav {
@@ -29,7 +31,7 @@ nav {
     padding: 10px 10px 10px 10px;
 }
 
-header nav > a img {
+header nav>a img {
     display: inline-block;
     height: auto;
     width: 50px;
@@ -49,24 +51,23 @@ header nav > a img {
 
 
 
-header nav > span {
+header nav>span {
     border: solid 1px lightgray;
     display: inline-block;
-      /* parent width - This is a comment */
+    /* parent width - This is a comment */
     width: calc(100% - 256px - 196px - 2px - 16px);
-      
+
 }
 
-header nav ul, 
-header nav ul li { 
+header nav ul,
+header nav ul li {
     display: inline-block
-   
-
 }
+
 .navlink [href="#"] {
     color: aquamarine;
 }
-   
+
 .sidebar {
     background-color: rgb(31, 96, 137);
     padding: 8px 16px;
@@ -101,18 +102,19 @@ footer {
     text-align: center;
     height: 100px;
 }
+
 .footer-links {
     display: inline-block;
-    margin: 0 10px ;
+    margin: 0 10px;
     padding: 10px 20px;
 }
+
 .content {
     text-align: center;
     padding: 20px 20px 20px 20px;
-   border: solid 3px white;
+    border: solid 3px white;
     margin: 0px auto;
     background-color: white;
-    max-width: auto;
     min-height: 500px;
 }
 
@@ -122,6 +124,7 @@ h1 {
     margin-bottom: 16px;
     float: auto;
 }
+
 h2 {
     text-align: center;
     font-size: 30px;
@@ -129,11 +132,13 @@ h2 {
     margin-left: 30pxs;
     color: white;
 }
+
 a {
     text-decoration: none;
     color: green;
     margin-left: 20px;
 }
+
 .sidebar-list {
     text-align: center;
     padding: 0;
@@ -160,12 +165,13 @@ img {
 .textbox {
     /* clear: right; */
     clear: both;
-    padding: 10px ;
+    padding: 10px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     line-height: 1.5;
 
     height: 300px;
 }
+
 article {
     
     border: solid 1px #df1818;
@@ -173,9 +179,12 @@ article {
    
 }
 article > div {
+
     margin: 16px;
     border: solid 1px #df1818;
 }
+
+
 
 
 
@@ -215,7 +224,61 @@ display: block;
 
 /* ←ここが重要 */
 .cleared-article {
-  clear: both;
-  margin-top: 10px;
-  padding: 10px;
+    clear: both;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+main {
+    min-height: 300px;
+    margin: 20px 20px 20px 20px;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+height: 650px;
+}
+
+.cleared-article {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  flex-direction: column;
+}
+
+
+.image-text-wrapper img {
+  width: 300px;
+  height: 300px;
+  max-width: 300px;
+  margin-bottom: 10px; /* 画像とテキストの間 */
+}
+
+.textbox {
+  padding: 0 10px;
+  max-width: 100%;
+}
+
+
+.images-wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 20px; /* 画像間のスペース */
+  max-width: 1200px;
+    margin: 0 auto;
+}
+
+picture {
+  display: inline-block;
+  width: 300px;
+  height: 300px;
+  max-width: 100%;
+}
+
+.flexbox {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px; /* アイテム間のスペース */
 }
